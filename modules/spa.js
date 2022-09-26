@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 const link = document.querySelectorAll('#navbar a');
 const list = document.querySelector('#book-list');
 const form = document.querySelector('#formfields');
@@ -19,6 +20,6 @@ export const spaFunction = () => {
         form.classList.add('hide');
         contact.classList.remove('hide');
       }
-    })
-  })
-}
+    });
+  });
+};

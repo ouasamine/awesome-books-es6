@@ -1,12 +1,11 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable class-methods-use-this */
-/* eslint-disable max-classes-per-file */
 
-import {spaFunction} from './modules/spa.js'
-import {BookList} from './modules/bookslist.js'
-import {Book} from './modules/book.js'
-import {printBookList} from './modules/booksdisplay.js'
-import { DateTime } from './modules/luxon.js'
+import { spaFunction } from './modules/spa.js';
+import { BookList } from './modules/bookslist.js';
+import { Book } from './modules/book.js';
+import { printBookList } from './modules/booksdisplay.js';
+import { DateTime } from './modules/luxon.js';
 
 const bookListObj = new BookList();
 const htmlContainer = document.querySelector('#book-list ul');
@@ -21,8 +20,7 @@ addBookBtn.addEventListener('click', (event) => {
   newb.author = bookAuthor;
   bookListObj.addBook(newb);
   printBookList(bookListObj, htmlContainer);
-})
-
+});
 
 if (bookListObj.getBooks()) {
   printBookList(bookListObj, htmlContainer);
@@ -30,10 +28,9 @@ if (bookListObj.getBooks()) {
 
 spaFunction();
 
-
 const datetime = document.querySelector('#datetime');
 
 setInterval(() => {
   const date = DateTime.now();
-  datetime.innerHTML = date.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS); 
-}, 1000)
+  datetime.innerHTML = date.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+}, 1000);

@@ -1,4 +1,4 @@
-export class BookList {
+/* eslint-disable import/prefer-default-export */export class BookList {
   constructor() {
     this.list = [];
   }
