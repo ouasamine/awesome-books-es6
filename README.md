@@ -1,18 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> Project Description 😃
+> A single page application that sotre a list of books on the user local storage using javascript modules with the ability to add new books and remove existing ones dynamically.
 
 
 ## Built With
 
-- Technologies
-- Technoligies
-
-## Live Demo
-
-Check [the live version](https://ouasamine.github.io/live) of this project.
+- Html/Css
+- Javascript
 
 ## Getting Started
 
@@ -28,16 +24,16 @@ To get a local copy up and running follow these simple example steps.
   - To clone and run this project on your local machine please follow the commands (Windows Command Line):
   ```
   cd PATH 
-  git clone _https://github.com/ouasamine/project _
-  cd _Project_
-  _index.html_ 
+  git clone https://github.com/ouasamine/awesome-books-es6
+  cd awesome-books-es6
+  index.html 
   ```
   _(instead of PATH put yor preferred directory where the repository files will download)_
 
 
 ## Authors
 
-👤 **Author**
+👤 **Amine**
 
 - GitHub: [@ouasamine](https://github.com/ouasamine)
 - Twitter: [@ouass_amine](https://twitter.com/ouass_amine)
